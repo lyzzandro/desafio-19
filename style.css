@@ -168,6 +168,7 @@ a:hover{
     text-align: center;
     font-size: 1.5em;
     font-weight: 600;
+    color: #293145;
 }
 
 .funcionalidade p{
@@ -175,6 +176,8 @@ a:hover{
     text-align: center;
     font-size: 1.4em;
     font-weight: 400;
+    color:#6E7275;
+    ;
 }
 
 #app{
@@ -244,6 +247,216 @@ a:hover{
 #app div article img{
     height: 100%;
 }
+
+/*Estilização dos planos*/
+#planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#planos div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+}
+
+#planos div span{
+    text-align: center;
+    width: 35%;
+    margin: 50px 0 0 0;
+}
+
+#planos div span h2{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #293145;
+}
+
+#planos div span p{
+    font-family: 'Inter', sans-serif;
+    margin: 16px 0 0 0;
+    color: #6E7275;
+}
+
+#planos div article{
+    display: flex;
+    margin: 95px 0 0 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#planos div article div{
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 470px;
+    background: #EFF8FF;
+    border-radius: 8px;
+}
+
+
+#planos div article div h3{
+    font-family: 'Sora', sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #293145;
+    margin: 0 0 59px 0;
+}
+
+#planos div article div p{
+    width: 80%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin: 47px 0 59px 0;
+    color: #6E7275;
+
+}
+
+#planos div article div button{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+    width: 230px;
+    height: 43px;
+    border-radius: 50px;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    color:#fff;
+    background: #0F9AFE;
+}
+
+#planos div article div button:hover{
+    cursor: pointer;
+    background: #0d7ecf;
+}
+
+/*CARD PREFERIDO*/
+#planos div article #preferido{
+    background: #293145;
+}
+
+#planos div article #preferido h3{
+    font-family: 'Sora', sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 13px 0;
+}
+
+#planos div article #preferido p{
+    color: #DBDBDB;
+}
+
+#planos div article #preferido div{
+    width: 164px;
+    height: 27px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+    margin: 0px 0 32px 0;
+    color: #ffffff;
+    background:#0F9AFE;
+}
+
+/*Contato*/
+#contato{
+    width: 100%;
+    height: 50vh;
+    background: url(imagens/Contato/notebook.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contato div{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(41, 49, 69, 0.7);
+}
+
+#contato div h2{
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+#contato div p{
+    width: 30%;
+    margin: 1% 0 7% 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #DBDBDB;
+    font-size: 1em;
+}
+
+#contato div span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+input{
+    width: 15%;
+    border-bottom: 1px solid #FFFFFF;
+    background: none;
+    padding: 10px 0 10px 0 ;
+    margin: 0 2% 0 0;
+    font-size: 1em;
+    color: #fff;
+}
+
+input::placeholder{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+#contato div span button{
+    font-family: 'Inter', sans-serif;
+    width: 118px;
+    height: 38px;
+    background: #0F9AFE;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 50px;
+}
+
+#contato div span button:hover{
+    background: #0d7ecf;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: 'Sora', sans-serif;
+    color:#293145 ;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:1400px){
 
