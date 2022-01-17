@@ -130,7 +130,6 @@ a:hover{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 60vh;
 }
 
 #funcionalidades h2{
@@ -149,14 +148,16 @@ a:hover{
     align-items: center;
     width: 300px;
     height: 300px;
+    margin: 0 20px 40px 20px;
 }
 
 #funcionalidades article{
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
-    height: 60%;
     justify-content:space-around;
     align-items: center;
+    margin: 0 0 5% 0;
 }
 
 .funcionalidade img{
@@ -184,16 +185,17 @@ a:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60vh;
     background-color: #EFF8FF;
 }
 
 #app div{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 80%;
+    margin: 38px 0 38px 0;
 }
 
 #app div div{
@@ -201,12 +203,13 @@ a:hover{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 780px;
 }
 
 #app div div span{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #app div div h2{
@@ -230,13 +233,13 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 #app div div span span{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #app div div span span img{
@@ -252,7 +255,6 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     width: 100%;
 }
 
@@ -261,8 +263,8 @@ a:hover{
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    height: 100%;
     width: 80%;
+    margin: 0 0 5% 0;
 }
 
 #planos div span{
@@ -276,6 +278,7 @@ a:hover{
     font-weight: 600;
     font-size: 2.5em;
     color: #293145;
+    text-align: center;
 }
 
 #planos div span p{
@@ -409,10 +412,11 @@ input{
     width: 15%;
     border-bottom: 1px solid #FFFFFF;
     background: none;
-    padding: 10px 0 10px 0 ;
+    padding: 10px 10px 10px 10px ;
     margin: 0 2% 0 0;
     font-size: 1em;
     color: #fff;
+    outline: none;
 }
 
 input::placeholder{
@@ -478,5 +482,65 @@ footer{
 
     #app div article img{
         width: 50%;
+    }
+
+    #planos div article div{
+        width: 270px;
+        height: 350px;
+    }
+
+    #planos div article div h3{
+        margin: 0 0 59px 0;
+    }
+    
+    #planos div article div p{
+
+        margin: 30px 0 20px 0;
+    }
+
+    #planos div article{
+        margin: 50px 0 0 0;
+    }
+}
+
+@media (max-width:1000px){
+
+    #inicio div div span h1{
+        font-size: 3em;
+    }
+
+    #inicio div article{
+        display: none;
+    }
+
+    #planos div article{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #planos div article div{
+        margin: 0 20px 40px 20px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    #planos div span{
+        width: 100%;
+    }
+
+    #contato div span{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contato div p{
+        width: 80%;
+    }
+
+    input{
+        width: 60%;
+        margin: 0 0 5% 0;
     }
 }
