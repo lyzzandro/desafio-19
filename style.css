@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 nav{
     height: 7vh;
     width: 100%;
